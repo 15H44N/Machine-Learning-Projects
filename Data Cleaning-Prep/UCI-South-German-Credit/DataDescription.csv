@@ -1,0 +1,22 @@
+Column Name,Variable Name,Content
+laufkont,status,status of the debtor's checking account with the bank (categorical)
+laufzeit,duration,credit duration in months (quantitative)
+moral,credit_history,history of compliance with previous or concurrent credit contracts (categorical)
+verw,purpose,purpose for which the credit is needed (categorical)
+hoehe,amount,credit amount in DM (quantitative; result of monotonic transformation; actual data and type of transformation unknown)
+sparkont,savings,debtor's savings (categorical)
+beszeit,employment_duration,duration of debtor's employment with current employer (ordinal; discretized quantitative)
+rate,installment_rate,credit installments as a percentage of debtor's disposable income (ordinal; discretized quantitative)
+famges,personal_status_sex,"combined information on sex and marital status; categorical; sex cannot be recovered from the variable, because male singles and female non - singles are coded with the same code(2); female widows cannot be easily classified,because the code table does not list them in any of the female categories "
+buerge,other_debtors,Is there another debtor or a guarantor for the credit? (categorical)
+wohnzeit,present_residence,length of time (in years) the debtor lives in the present residence (ordinal; discretized quantitative)
+verm,property,"the debtor's most valuable property, i.e. the highest possible code is used. Code 2 is used, if codes 3 or 4 are not applicable and there is a car or any other relevant property that does not fall under variable sparkont.(ordinal)"
+alter,age,age in years (quantitative)
+weitkred,other_installment_plans,installment plans from providers other than the credit-giving bank (categorical)
+wohn,housing,type of housing the debtor lives in (categorical)
+bishkred,number_credits,"number of credits including the current one the debtor has (or had) at this bank (ordinal, discretized quantitative); contrary to Fahrmeir(1984) statement, the original data values are not available."
+beruf,job,quality of debtor's job (ordinal)
+pers,people_liable,"number of persons who financially depend on the debtor (i.e., are entitled to maintenance) (binary,discretized quantitative)"
+telef,telephone,Is there a telephone landline registered on the debtor's name? (binary; remember that the data are from the 1970 s)
+gastarb,foreign_worker,Is the debtor a foreign worker? (binary)
+kredit,credit_risk,Has the credit contract been complied with (good) or not (bad) ? (binary)
